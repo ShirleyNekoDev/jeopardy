@@ -1,0 +1,26 @@
+# Build output
+dist/
+out-tsc/
+
+# Node dependencies
+node_modules/
+
+# Compiled JS
+**/*.js
+
+# Angular config files (keep formatting stable)
+angular.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Environment files
+src/environments/*.ts
+
+# Assets
+src/assets/
+src/favicon.ico
+
+# Ignore IDE settings
+.vscode/
+.idea/
